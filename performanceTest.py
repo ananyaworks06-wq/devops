@@ -13,7 +13,7 @@ response_time = (end - start) * 1000
 
 print("Response time:", response_time, "ms")
 
-if response_time > 500:
+if response_time > 10:
     raise Exception("Too slow ❌")
 
 print("API is fast ✅")
